@@ -1,0 +1,52 @@
+.contenedor{
+    background-color: rgb(4, 16, 83);
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    display: grid;
+    grid-gap: 1cap;
+    grid-template-columns: 2fr 2fr 1fr ;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas: "header    header      header"
+                         "nav        nav         nav"
+                         "section    section     ads"
+                         "foot       foot       foot"
+                         "rrss       rrss        rrss" ;
+    
+}
+.contenedor .header{
+    background-color: yellow;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.contenedor .nav{
+    background-color: rgba(255, 162, 0, 0.948);
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+.contenedor .section{
+    background-color: rgb(244, 244, 244);
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.contenedor .ads{
+    background-color: coral;
+}
+.contenedor .foot{
+    background-color: chartreuse;
+    grid-row: 4/5;
+    grid-column: 1/4;
+   
+}
+.contenedor .rrss{
+    background-color: cornflowerblue;
+    grid-column: 1/4;
+
+    
+}
+ .r1{
+ background-color: rgb(216, 216, 216);
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
